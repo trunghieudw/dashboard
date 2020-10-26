@@ -10,7 +10,16 @@ body{
      font-size: 22px;
      font-weight: 900;
 }
-
+.container-1{
+    display: flex;
+}
+.container-1 > div { 
+    background-color:#2F323A;
+    color: #cccccc;  
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
 .sidebar{
     background: #2F323A;
     margin-top: 70px;
@@ -34,15 +43,15 @@ border-radius: 10px;
     height: 100px;
     border-radius: 100px;
     margin-bottom: 10px;
+    
 }
 .sidebar h4{
     color: #cccccc;
     margin-top: 0%;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;    
 }
 .sidebar p{
-    color: #cccccc;
+    color: #cccccc;    
     margin-top: 0%;
     margin-bottom: 20px;
 }
