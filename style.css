@@ -107,5 +107,6 @@ border-radius: 10px;
     box-sizing: border-box;
     transition: 0.5s; 
     border-top: solid 1px #cccccc;
-    transition-property: background;
+    transition-property: background; 
+    
 }
