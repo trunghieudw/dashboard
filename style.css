@@ -10,16 +10,6 @@ body{
      font-size: 22px;
      font-weight: 900;
 }
-.container-1{
-    display: flex;
-}
-.container-1 > div { 
-    background-color:#2F323A;
-    color: #cccccc;  
-    margin: 10px;
-    padding: 20px;
-    font-size: 20px;
-  }
 .sidebar{
     background: #2F323A;
     margin-top: 70px;
@@ -27,17 +17,11 @@ body{
     position: fixed;
     left: 0;
     width: 250px;
-    height: 100%;
-    overflow-y: scroll;
+    height: 100%;  
+    /* overflow-y: scroll;   */
+   
 }
-::-webkit-scrollbar{
-    width: 4px;
-    background: honeydew;
-}
-::-webkit-scrollbar-thumb{
-background-color: gray;
-border-radius: 10px;
-}
+/* sidebar */
 .sidebar .profile_image{
     width: 100px;
     height: 100px;
@@ -54,6 +38,35 @@ border-radius: 10px;
     color: #cccccc;    
     margin-top: 0%;
     margin-bottom: 20px;
+}
+.container-1{
+    display: flex;
+}
+.container-1 > div { 
+    background-color:#2F323A;
+    color: #cccccc;  
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+.sidebar1{
+    background: #2F323A;
+    margin-top: 0px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 50%;  
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 4px;
+    background: honeydew;
+    display: none;
+}
+::-webkit-scrollbar-thumb{
+background-color: gray;
+border-radius: 10px;
 }
 .sidebar a{
     color: #ffffff;
