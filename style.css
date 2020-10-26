@@ -4,7 +4,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .left_area h3{
-    color: #ffffff;
+    color: black;
      margin: 0;
      text-transform: uppercase;
      font-size: 22px;
@@ -23,31 +23,38 @@ body{
 }
 /* sidebar */
 .sidebar .profile_image{
-    width: 100px;
-    height: 100px;
+    width: 64px;
+    height: 64px;
     border-radius: 100px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;    
 }
-.sidebar h4{
+.sidebar h3{
     color: #cccccc;
     margin-top: 0%;
-    margin-bottom: 5px;    
+    margin-bottom: 5px; 
+    text-align: center;   
 }
 .sidebar p{
-    color: #cccccc;    
+    color: #cccccc;
     margin-top: 0%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    
+}
+.description {
+    color: #cccccc;
+    margin-top: 0%;
+    margin-bottom: 5px; 
+    text-align: center;   
 }
 .container-1{
-    display: flex;
+    display: flex ;  
 }
 .container-1 > div { 
     background-color:#2F323A;
     color: #cccccc;  
     margin: 10px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 20px;    
   }
 .sidebar1{
     background: #2F323A;
@@ -72,24 +79,23 @@ border-radius: 10px;
     color: #ffffff;
     display: block;
     width: 100%;
-    line-height: 50px;
+    line-height: 60px;
     text-decoration: none;
-    padding-left: 40px;
+    padding-left: 20px;
     box-sizing: border-box;
-    transition: 0.5s;
- 
+    transition: 0.5s; 
     transition-property: background;
 }
-.sidebar p{
+.sidebar1 p{
     height: 10px;
     color: #ffffff;
     display: block;
     width: 100%;
-    line-height: 20px;
+    line-height: 30px;
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 5px;
     box-sizing: border-box;
-    transition: 0.5s;
- 
+    transition: 0.5s; 
+    border-top: solid 1px #cccccc;
     transition-property: background;
 }
