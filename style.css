@@ -10,12 +10,22 @@ header{
     width: 100%;
     height: 30px;
 }
+.profile_image{
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+
+ 
+}
 .left_area h3{
     color: #ffffff;
      margin: 0;
      text-transform: uppercase;
-     font-size: 22px;
+     font-size: 20px;
      font-weight: 900;
+     left: 200px;
+    
 }
 .sidebar{
     background: #2F323A;
@@ -108,5 +118,28 @@ border-radius: 10px;
     transition: 0.5s; 
     border-top: solid 1px #cccccc;
     transition-property: background; 
-    
+
+}
+label #sidebar_btn{
+    z-index: 1;
+    color: #ffffff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+}
+label #sidebar_btn:hover{
+    color:  #19b3d3;
+}
+#check:checked~ .sidebar{
+    left: -190px;
+}
+#check:checked~ .sidebar a span{
+    display: none;
+}
+#check:checked~ .sidebar a{
+    font-size: 20px;
 }
